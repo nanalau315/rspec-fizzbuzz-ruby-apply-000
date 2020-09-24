@@ -2,16 +2,16 @@
 # See README.md for instructions on how to do this
 
 def fizzbuzz(number)
-  if number / 3 == 1
+  if number / 3.0 == 1.0
     puts "Fizz"
     "Fizz"
-  elsif number / 5 == 1
+  elsif number / 5.0 == 1.0
     puts "Buzz"
     "Buzz"
-  elsif number / 3 || number / 5 == 5 || 3
+  elsif number / 3.0 || number / 5.0 == 5.0 || 3.0
     puts "FizzBuzz"
     "FizzBuzz"
-  else number / 3 || number / 5 != 1
+  else number / 3.0 || number / 5.0 != 1.0
     puts "nil"
     "nil"
   end
