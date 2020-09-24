@@ -14,4 +14,5 @@ def fizzbuzz(number)
   else number / 3 != 1
     puts "nil"
     "nil"
+  end
 end
