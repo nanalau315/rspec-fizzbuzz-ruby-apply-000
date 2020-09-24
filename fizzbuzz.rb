@@ -11,7 +11,7 @@ def fizzbuzz(number)
   elsif number / 3.0 || number / 5.0 == 5.0 || 3.0
     puts "FizzBuzz"
     "FizzBuzz"
-  else number / 3.0 || number / 5.0 != 1.0
+  else number / 3.0 || number / 5.0 != 1.00
     puts "nil"
     "nil"
   end
