@@ -10,7 +10,7 @@ def fizzbuzz(number)
     puts "Buzz"
     "Buzz"
     
-  elsif number / 3.0 && number / 5.0 == 5.0 || 3.0
+  elsif number / 3.0 && number / 5.0 == 5.0 && 3.0
     puts "FizzBuzz"
     "FizzBuzz"
   
